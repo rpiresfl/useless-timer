@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Useless Timer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="shortcut icon" href="res/icons/clock.ico">   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="main-div">
+        <h1>Useless Timer</h1>
+
+        <div id="radioDiv">
+            <div id="speedBitches">
+                <input id="1" type="radio" name="chooseone">
+                <label>Slowpoke</label>
+            </div>
+            <div id="speedBitches">
+                <input id="2" type="radio" name="chooseone" checked>
+                <label>Normal</label>
+            </div>
+            <div id="speedBitches">
+                <input id="3" type="radio" name="chooseone">
+                <label>Frickin' Fast</label>
+            </div>
+            <div id="speedBitches">
+                <input id="4" type="radio" name="chooseone">
+                <label>Woohooooooooo Fast Bitches</label>
+            </div>
+        </div>
+
+        <button id="startTimerButton" class="btn btn-primary"> <span class="glyphicon glyphicon-play"></span>Start Timer</button>
+        <button id="stopTimerButton" class="btn btn-primary"><span class="glyphicon glyphicon-pause"></span>Pause Timer</button>
+        <div class="container blue-background">Seconds passed: <span id="seconds">0</span></div>
+        <div class="container blue-background">Minutes passed: <span id="minutes">0</span></div>
+        <div class="container blue-background">Hours passed: <span id="hours">0</span></div>
+        <div class="container blue-background">Random Number Every Second 'Cus Why Not: <span id="randomNumber">0</span></div>
+        <div id="quoteBar" class="container blue-background">Random Inspirational Quote Every 10 Seconds Down Below In Huge Pretty Letters 'Cus Why The Hell Not<span id="quote">Quote be summoned 'ere!</span></div>
+    </div> 
+
+    <script src="js/index.js"></script>
+</body>
+</html>

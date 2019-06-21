@@ -1,0 +1,44 @@
+@media only screen and (max-width: 767px) {
+    #quoteBar {
+        width: 95%;
+    }
+}
+
+@font-face {
+    font-family: 'one signature';
+    src: url('../res/fonts/OneSignature.ttf') format('truetype');
+}
+
+#main-div {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#speedBitches {
+    display: block;
+}
+
+#quote {
+    display: block;
+    font-family: 'one signature';
+    font-size: 40px;
+}
+
+.blue-background {
+    border: 0.5px solid black;
+    margin: 5px auto;
+    width: max-content;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 3px;
+}
+
+.disableInteraction {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+h1 {
+    color: cadetblue;
+}
